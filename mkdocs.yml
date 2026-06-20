@@ -1,0 +1,27 @@
+site_name: Guía Técnica de Metasploit Framework
+site_description: Documentación de instalación y uso básico de Metasploit Framework
+site_author: Juan Carlos Sibrián Palacios
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+  palette:
+    primary: indigo
+    accent: indigo
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+nav:
+  - Inicio: index.md
+  - Instalación: instalacion.md
+  - Uso básico: uso-basico.md
